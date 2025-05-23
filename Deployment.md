@@ -81,7 +81,7 @@ exit
 ### Task 3: Rollback of Deployment 
 View the history of Deployments
 ```
-kubectl rollout history deployment/nginx-dep
+kubectl rollout history deployment/nginx-dep -o
 ```
 Rollback the Deployment done in the previous task
 ```
