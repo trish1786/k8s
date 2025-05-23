@@ -108,7 +108,7 @@ Validate connectivity using External IP on NodePort using below or via browser
 ```
 curl <EXTERNAL-IP>:NodePort
 ```
-Get External IPs of the machines in the cluster. SSH to one of the machines and rerun the command in the previous task
+Get External IPs of the machines in the cluster. SSH to one of the machines and rerun the command in the previous task to check cluster ip inside ne
 ```
 kubectl get nodes -o wide | awk '{print $7}'
 ```
