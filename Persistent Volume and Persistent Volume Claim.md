@@ -193,7 +193,7 @@ kubectl get deploy
 kubectl get pods
 ``
 test :
-file creted inside the node
+file creted inside the node will be present in pods
 root@i-011bb4436f8bea7d7:/var/lib/kubelet/pods/31bc5ed3-41e2-42ec-ad2b-46abab7bd588/volumes/kubernetes.io~csi/pvc-2baafae8-6c74-47e9-b403-4f595f0395b7/mount#
 
  kubectl get pod ng-deploy-66f67b9ff9-jcplr -o jsonpath='{.metadata.uid}'
