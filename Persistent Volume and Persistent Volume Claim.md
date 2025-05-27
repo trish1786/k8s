@@ -4,6 +4,7 @@
 View worker nodes and their labels
 ```
 kubectl get nodes --show-labels | grep role=node
+kubectl get nodes --show-labels
 ```
 Make a note of the kubernetes.io/hostname label of one of the nodes and ssh to one of the nodes using below command
 ```
